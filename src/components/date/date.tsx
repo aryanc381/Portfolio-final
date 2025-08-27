@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Date() {
   return (
     <div className='shadow-lg flex justify-center text-[4.5vw] bg-[#ffffff] mt-[2vw] mb-[] mr-[2vw] ml-[2vw] pt-[3vw] pb-[3vw] pr-[2vw] pl-[2vw] gap-[6vw] rounded-xl border-[0.1vw] border-gray-300'>

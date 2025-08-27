@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Education() {
   return (
     <div className='shadow-lg grid justify-center bg-[#ffffff] m-[1vw] mt-[2.5vw] mb-[] mr-[2.5vw] ml-[2.5vw] pt-[3vw] pb-[4vw] pr-[3vw] pl-[3vw] rounded-xl border-[0.1vw] border-gray-200'>
