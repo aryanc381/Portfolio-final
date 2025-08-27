@@ -7,6 +7,7 @@ import Projects from './components/projects/projects'
 import Stack from './components/stack/stack'
 import Contact from './components/contact/contact'
 import Research from './components/research/research'
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Stack />
       <Experience />
       <Research />
+      <Footer />
       
     </>
   )
