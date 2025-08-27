@@ -2,10 +2,13 @@ import React from 'react'
 
 function Landing() {
   return (
-    <div className='shadow-lg grid justify-center bg-[#ffffff] m-[1vw] mt-[2.5vw] mb-[] mr-[2.5vw] ml-[2.5vw] pt-[3vw] pb-[4vw] pr-[3vw] pl-[3vw] rounded-xl border-[0.1vw] border-gray-200'>
-        <p className='text-[6.4vw] tracking-[-0.30vw] font-[500]'>Hello, I'm a <span className='pt-[0.2vw] pb-[0.2vw] pl-[0.8vw] pr-[0.8vw] rounded-md bg-green-500 text-white shadow-gray-200 shadow-xl'>Full-stack AI Engineer.</span></p>
-        <p className='text-[4.5vw]'>I build end-to-end AI products, from data collection and model development to integration and web and production deployment.</p>
-    </div>
+    <>
+      <div className='shadow-lg grid justify-center bg-[#ffffff] m-[1vw] mt-[2.5vw] mb-[] mr-[2.5vw] ml-[2.5vw] pt-[3vw] pb-[4vw] pr-[3vw] pl-[3vw] rounded-xl border-[0.1vw] border-gray-200'>
+          <p className='text-[6.4vw] tracking-[-0.30vw] font-[500]'>Hello, I'm a <span className='pt-[0.2vw] pb-[0.2vw] pl-[0.8vw] pr-[0.8vw] rounded-md bg-green-500 text-white shadow-gray-200 shadow-xl'>Full-stack AI Engineer.</span></p>
+          <p className='text-[4.5vw]'>I build end-to-end AI products, from data collection and model development to integration and web and production deployment.</p>
+      </div>
+    </>
+    
   )
 }
 
