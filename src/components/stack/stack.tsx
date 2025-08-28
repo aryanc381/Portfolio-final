@@ -1,68 +1,47 @@
 function Stack() {
+  const techs = [
+    { name: "Mongo", img: "mongo.png" },
+    { name: "Express", img: "express.png" },
+    { name: "React", img: "react.png" },
+    { name: "NodeJS", img: "node.png" },
+    { name: "HF", img: "HF.png" },
+    { name: "PyTorch", img: "PyTorch.png" },
+    { name: "TF", img: "tf.png" },
+    { name: "ONNX", img: "onnx.png" },
+    { name: "C++", img: "cplus.png" },
+    { name: "Python", img: "python.png" },
+    { name: "Java", img: "java.png" },
+    { name: "TS", img: "ts.png" },
+  ];
+
   return (
-    <div className='shadow-lg grid justify-center bg-[#ffffff] m-[1vw] pl-[3vw] mt-[2.5vw] mb-[] mr-[2.5vw] ml-[2.5vw] pt-[3vw] pb-[4vw] pr-[3vw] pl-[3vw] rounded-xl border-[0.1vw] border-gray-200'>
-        <p className='text-[6.4vw] tracking-[-0.30vw] font-[500] pl-[1.5vw] pb-[0.5vw]'>Tech Stack - MERN | AIML | Ops</p>
-        <div className="pl-[2vw]">
-            <div className="flex justify-center mt-[2vw] mb-[2vw]">
-                <div className="text-center shadow-lg shadow-gray-200 w-[20vw] bg-gray-100 pt-[2vw] pb-[1vw] pl-[2vw] pr-[2vw] mr-[2vw] rounded-md border border-[0.1vw] border-gray-200">
-                    <img src="mongo.png" alt="" className='w-[8.5vw] mx-auto'/>
-                    <p className='pl-[1vw]'>Mongo</p>
-                </div>
-                <div className="text-center shadow-lg shadow-gray-200 w-[20vw]  bg-gray-100 pt-[2vw] pb-[1vw] pl-[2vw] pr-[2vw]  mr-[2vw] rounded-md border border-[0.1vw] border-gray-200">
-                    <img src="express.png" alt="" className='w-[8.5vw] mx-auto'/>
-                    <p className='pl-[1vw]'>Express</p>
-                </div>
-                <div className="text-center shadow-lg shadow-gray-200 w-[20vw]  bg-gray-100 pt-[2vw] pb-[1vw] pl-[2vw] pr-[2vw]  mr-[2vw] rounded-md border border-[0.1vw] border-gray-200">
-                    <img src="react.png" alt="" className='w-[9vw] pb-[0.5vw] mx-auto'/>
-                    <p className='pl-[1vw]'>React</p>
-                </div>
-                <div className="text-center shadow-lg shadow-gray-200 w-[20vw]  bg-gray-100 pt-[2vw] pb-[1vw] pl-[2vw] pr-[2vw]  mr-[2vw] rounded-md border border-[0.1vw] border-gray-200">
-                    <img src="node.png" alt="" className='w-[8.05vw] pb-[0.5vw] mx-auto'/>
-                    <p className='pl-[1vw]'>NodeJS</p>
-                </div>
-            </div>
+    <div className="md:fixed top-[5.3vw] left-[33vw] shadow-lg bg-white m-[1vw] mt-[2.5vw] p-[3vw] 
+                    md:p-[1.2vw] md:pt-[0.5vw] rounded-xl border border-gray-200 md:w-[21.55vw]">
+      <p className="flex justify-left text-[6.4vw] md:pl-[0vw] md:text-[1.7vw] font-[600] tracking-[-0.08vw] pb-[1vw] text-center">
+        Tech Stack - <span className="pl-[0.4vw] semibold"> AIML | MERN</span>
+      </p>
 
-            <div className="flex justify-center mb-[2vw]">
-                <div className="text-center shadow-lg shadow-gray-200 w-[20vw] bg-gray-100 pt-[2vw] pb-[1vw] pl-[2vw] pr-[2vw] mr-[2vw] rounded-md border border-[0.1vw] border-gray-200">
-                    <img src="HF.png" alt="" className='w-[8.5vw] mx-auto'/>
-                    <p className='pl-[1vw]'>HF</p>
-                </div>
-                <div className="text-center shadow-lg shadow-gray-200 w-[20vw]  bg-gray-100 pt-[2vw] pb-[1vw] pl-[2vw] pr-[2vw]  mr-[2vw] rounded-md border border-[0.1vw] border-gray-200">
-                    <img src="PyTorch.png" alt="" className='w-[8.5vw] pb-[0.2vw] mx-auto'/>
-                    <p className='pl-[1vw]'>PyTorch</p>
-                </div>
-                <div className="text-center shadow-lg shadow-gray-200 w-[20vw]  bg-gray-100 pt-[2vw] pb-[1vw] pl-[2vw] pr-[2vw]  mr-[2vw] rounded-md border border-[0.1vw] border-gray-200">
-                    <img src="tf.png" alt="" className='w-[8vw] pb-[0.5vw] mx-auto'/>
-                    <p className='pl-[1vw]'>TF</p>
-                </div>
-                <div className="text-center shadow-lg shadow-gray-200 w-[20vw]  bg-gray-100 pt-[2vw] pb-[1vw] pl-[2vw] pr-[2vw]  mr-[2vw] rounded-md border border-[0.1vw] border-gray-200">
-                    <img src="onnx.png" alt="" className='w-[8.05vw] pb-[0.5vw] mx-auto'/>
-                    <p className='pl-[1vw]'>ONNX</p>
-                </div>
-            </div>
-
-            <div className="flex justify-center mb-[2vw]">
-                <div className="text-center shadow-lg shadow-gray-200 w-[20vw] bg-gray-100 pt-[2vw] pb-[1vw] pl-[2vw] pr-[2vw] mr-[2vw] rounded-md border border-[0.1vw] border-gray-200">
-                    <img src="cplus.png" alt="" className='pl-[1vw] w-[9.5vw] mx-auto'/>
-                    <p className='pl-[1vw]'>C++</p>
-                </div>
-                <div className="text-center shadow-lg shadow-gray-200 w-[20vw]  bg-gray-100 pt-[2vw] pb-[1vw] pl-[2vw] pr-[2vw]  mr-[2vw] rounded-md border border-[0.1vw] border-gray-200">
-                    <img src="python.png" alt="" className='pl-[1vw] w-[10.5vw] pb-[0.2vw] mx-auto'/>
-                    <p className='pl-[1vw]'>Python</p>
-                </div>
-                <div className="text-center shadow-lg shadow-gray-200 w-[20vw]  bg-gray-100 pt-[2vw] pb-[1vw] pl-[2vw] pr-[2vw]  mr-[2vw] rounded-md border border-[0.1vw] border-gray-200">
-                    <img src="java.png" alt="" className='pl-[1vw] w-[10vw] pb-[0.5vw] mx-auto'/>
-                    <p className='pl-[1vw]'>Java</p>
-                </div>
-                <div className="text-center shadow-lg shadow-gray-200 w-[20vw]  bg-gray-100 pt-[2vw] pb-[1vw] pl-[2vw] pr-[2vw]  mr-[2vw] rounded-md border border-[0.1vw] border-gray-200">
-                    <img src="ts.png" alt="" className='pl-[1vw] w-[10.5vw] pt-[0.2vw] pb-[0.25vw] mx-auto'/>
-                    <p className='pl-[1vw]'>TS</p>
-                </div>
-            </div>
-        </div>
-        
+      {/* Mobile = flex rows | Desktop = grid */}
+      <div className="flex flex-wrap justify-center gap-[3vw] 
+                md:grid md:grid-cols-4 md:gap-x-[1vw] md:gap-y-[0.8vw] md:justify-items-center">
+        {techs.map((tech, i) => (
+          <div
+            key={i}
+            className="flex flex-col items-center justify-center shadow-md shadow-gray-200 
+                       w-[20vw] h-[20vw] md:w-[4.5vw] md:h-[4.2vw] bg-gray-100 
+                       rounded-md border border-gray-200"
+          >
+            <img
+              src={tech.img}
+              alt={tech.name}
+              className="w-[8vw] md:w-[2vw] mb-[0.3vw] mt-[0.2vw]"
+            />
+            <p className="text-[4.2vw] tracking-[-0.05vw] md:text-[1vw]">{tech.name}</p>
+          </div>
+        ))}
+      </div>
     </div>
-  )
+  );
 }
-;
+
 export default Stack;

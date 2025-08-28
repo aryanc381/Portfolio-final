@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-    <>
+    <div className='mt-[0vw]'>
       <Date />
       <Landing />
       <Contact />
@@ -23,8 +23,7 @@ function App() {
       <Experience />
       <Research />
       <Footer />
-      
-    </>
+    </div>
   )
 }
 
