@@ -18,7 +18,7 @@ function Stack() {
     <div className="md:fixed top-[7.4vw] left-[33vw] shadow-lg bg-white m-[2vw] md:m-[1vw] mt-[2.5vw] p-[3vw] 
                     md:p-[1.2vw] md:pt-[0.5vw] rounded-xl border border-gray-200 md:w-[21.55vw]">
       <p className="flex justify-left text-[6.4vw] md:pl-[0vw] md:text-[1.7vw] font-[600] tracking-[-0.08vw] pb-[0.5vw] text-center">
-        Tech Stack - <span className="pl-[0.4vw] semibold"> AIML | MERN</span>
+        Tech Stack &nbsp;⇒
       </p>
 
       {/* Mobile = flex rows | Desktop = grid */}
