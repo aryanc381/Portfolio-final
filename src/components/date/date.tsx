@@ -5,7 +5,7 @@ function Date() {
             <img src="/pfp.jpg" alt="" className='p-[0.5vw] w-[15vw] bg-gray-200 rounded-[50%] md:w-[4.5vw] md:h-[4.5vw] md:p-[0.15vw]'/>
             <div className="pt-[0.7vw] pl-[2vw] md:pt-[0.5vw] md:pl-[0.5vw]">
                 <p className='font-medium'>Aryan Chauhan</p>
-                <p className=''>Pune, Maharasthra.</p>
+                <p className=''>Portfolio Overview</p>
             </div>
             
         </div>
