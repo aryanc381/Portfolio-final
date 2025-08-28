@@ -2,7 +2,7 @@ function Projects() {
   return (
     <>
         <div className='md:top-[16.35vw] shadow-lg grid justify-center bg-[#ffffff] m-[1vw] mt-[2.5vw] mb-[] mr-[2.5vw] ml-[2.5vw] pt-[3vw] pb-[4vw] pr-[3vw] pl-[3vw] rounded-xl border-[0.1vw] border-gray-200 md:fixed md:pt-[0.5vw] md:pb-[1vw] md:pl-[3vw] md:w-[42vw] md:ml-[56.5vw]'>
-            <p className='text-[6.4vw] tracking-[-0.30vw] font-[500] pl-[0.2vw] pb-[1vw] md:text-[1.8vw] md:tracking-[-0.1vw]'>Projects</p>
+            <p className='text-[6.4vw] tracking-[-0.30vw] font-[500] pl-[0.2vw] pb-[1vw] md:text-[1.8vw] md:tracking-[-0.1vw] cursor-pointer'>Projects &nbsp; ⇒</p>
             <div className='text-[4.5vw] md:text-[1vw] md:mt-[-2.5vw]'>
 
                 <div className="shadow-lg shadow-gray-200 justify-between flex bg-gray-100 pt-[3vw] pb-[2vw] pr-[3vw] pl-[3vw] mt-[2vw] border border-[0.1vw] border-gray-200 gap-[2vw] rounded md:text-[1.4vw] md:pt-[1vw] md:tracking-[-0.05vw] md:pt-[0vw] md:justify-center md:gap-[2vw] md:w-[40vw] md:pl-[1vw] md:pr-[1.5vw]">
