@@ -3,7 +3,7 @@ function Experience() {
     <div className="md:fixed md:top-[1vw] md:left-[55.5vw] shadow-lg grid justify-center bg-[#ffffff] 
                     m-[1vw] mt-[2.5vw] pr-[3vw] pl-[3vw] pt-[2vw] pb-[4vw]
                     rounded-xl border-[0.1vw] border-gray-200
-                    md:pt-[0.4vw] md:pb-[0.7vw] md:pl-[1vw] md:pr-[1vw] md:w-[30vw] md:mt-[1vw]">
+                    md:pt-[0.95vw] md:pb-[0.7vw] md:pl-[1vw] md:pr-[1vw] md:w-[30vw] md:mt-[1vw]">
       
       <p className="text-[6.4vw] tracking-[-0.30vw] font-[500] pl-[0.2vw] pb-[0.5vw]
                     md:text-[1.8vw] md:tracking-[-0.1vw] md:pb-[0vw]">
