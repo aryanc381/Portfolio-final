@@ -24,7 +24,7 @@ function Experience() {
         </div>
 
         <div className="shadow-lg shadow-gray-200 flex justify-between bg-gray-100 
-                        pt-[1vw] pb-[1vw] pl-[3vw] pr-[3vw] mt-[1vw] 
+                        pt-[1vw] pb-[1vw] pl-[3vw] pr-[3vw] mt-[0.5vw] 
                         border border-[0.1vw] border-gray-200 gap-[1vw] rounded 
                         md:pt-[0.5vw] md:pb-[0.5vw] md:pl-[0.5vw] md:pr-[0.5vw] md:gap-[4vw] md:w-[28vw]">
           <div>
