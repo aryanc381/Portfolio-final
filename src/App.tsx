@@ -1,5 +1,4 @@
 import './App.css'
-import Date from './components/date/date'
 import Education from './components/education/education'
 import Experience from './components/exp/exp'
 import Landing from './components/landing/landing'
@@ -8,13 +7,14 @@ import Stack from './components/stack/stack'
 import Contact from './components/contact/contact'
 import Research from './components/research/research'
 import Footer from './components/footer/footer'
+import LiveDate from './components/date/date'
 
 function App() {
 
 
   return (
     <div className='mt-[0vw]'>
-      <Date />
+      <LiveDate />
       <Landing />
       <Contact />
       <Education />
