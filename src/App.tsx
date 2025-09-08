@@ -8,6 +8,7 @@ import Contact from './components/contact/contact'
 import Research from './components/research/research'
 import Footer from './components/footer/footer'
 import LiveDate from './components/date/date'
+import Assistant from './components/assistant/assistant'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className='mt-[0vw]'>
       <LiveDate />
+      <Assistant />
       <Landing />
       <Contact />
       <Education />
